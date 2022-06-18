@@ -7,7 +7,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Data
+@Builder
 @Entity
+@AllArgsConstructor
 @NoArgsConstructor
 public class Recipe {
     @Id
